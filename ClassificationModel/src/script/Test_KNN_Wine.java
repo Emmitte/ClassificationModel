@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 import algorithm.knn.KNN;
 
@@ -23,11 +24,11 @@ public class Test_KNN_Wine {
             fr=new FileReader(path);
 			br=new BufferedReader(fr);
             while ((line=br.readLine()) != null) {  
-                String t[] = line.split(",");  
+                StringTokenizer sz = new StringTokenizer(line);
                 l = new ArrayList<Double>();  
-                for (int i = 0; i < t.length; i++) {  
-                    l.add(Double.parseDouble(t[i]));  
-                }  
+                while(sz.hasMoreTokens()){
+                	l.add(Double.parseDouble(sz.nextToken()));
+                }
                 datas.add(l);  
                 line = br.readLine();  
             }  
@@ -36,30 +37,37 @@ public class Test_KNN_Wine {
         }  
     }  
 	public static void main(String[] args) {
-		Test_KNN_Wine t = new Test_KNN_Wine();  
-        String datafile = "dataset/winedata/winedata7/train.data";  
-        String testfile = "dataset/winedata/winedata7/test.data";  
+		Test_KNN_Wine t = new Test_KNN_Wine();
+		String trainfile,testfile;
+		/*
+        trainfile = "dataset/winedata/winedata7/train.data";  
+        testfile = "dataset/winedata/winedata7/test.data";  
+        */
+		trainfile = "dataset/textdata/1/train.data";  
+        testfile = "dataset/textdata/1/test.data";  
         int count=0;
         int flag=0;
         try {  
-            List<List<Double>> datas = new ArrayList<List<Double>>();  
+            List<List<Double>> trainDatas = new ArrayList<List<Double>>();  
             List<List<Double>> testDatas = new ArrayList<List<Double>>();  
-            t.read(datas, datafile);  
+            t.read(trainDatas, trainfile);  
             t.read(testDatas, testfile);  
             KNN knn = new KNN();  
             for (int i = 0; i < testDatas.size(); i++) {  
                 List<Double> test = testDatas.get(i);  
                 System.out.print("测试元组: ");  
+                /*
                 for (int j = 0; j < test.size(); j++) {  
                     System.out.print(test.get(j) + " ");  
-                }  
+                } 
+                */ 
                 System.out.print("类别为: "); 
-                if(Float.parseFloat((knn.knn(datas, test, 3)))==test.get(0))
+                if(Float.parseFloat((knn.knn(trainDatas, test, 3)))==test.get(0))
                 {
                 	count++;
                 	flag=1;
                 }
-                System.out.println(Math.round(Float.parseFloat((knn.knn(datas, test, 3))))+" flag:"+flag); 
+                System.out.println(Math.round(Float.parseFloat((knn.knn(trainDatas, test, 3))))+" flag:"+flag); 
                 flag=0;
             } 
             System.out.println("accurate:"+count*1.0/testDatas.size()*100+"%");
