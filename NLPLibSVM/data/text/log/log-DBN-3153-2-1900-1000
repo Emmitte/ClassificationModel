@@ -1,0 +1,312 @@
+Data loaded: size=200, dim=3153
+Layer-wise pre-training begin: 
+Layer: 1
+Layer: 1, Epoch: 0, Error: 28903.2
+Layer: 1, Epoch: 1, Error: 25927.8
+Layer: 1, Epoch: 2, Error: 25955.9
+Layer: 1, Epoch: 3, Error: 25792.5
+Layer: 1, Epoch: 4, Error: 25849.8
+Layer: 1, Epoch: 5, Error: 26189.8
+Layer: 1, Epoch: 6, Error: 26174.6
+Layer: 1, Epoch: 7, Error: 25694.7
+Layer: 1, Epoch: 8, Error: 24727.8
+Layer: 1, Epoch: 9, Error: 23819
+Layer: 1, Epoch: 10, Error: 22772.5
+Layer: 1, Epoch: 11, Error: 22059.7
+Layer: 1, Epoch: 12, Error: 21499.8
+Layer: 1, Epoch: 13, Error: 21004.7
+Layer: 1, Epoch: 14, Error: 20438.7
+Layer: 1, Epoch: 15, Error: 19859
+Layer: 1, Epoch: 16, Error: 19580.4
+Layer: 1, Epoch: 17, Error: 18878.7
+Layer: 1, Epoch: 18, Error: 18628.8
+Layer: 1, Epoch: 19, Error: 18436.7
+Data loaded: size=200, dim=1900
+Layer: 2
+Layer: 2, Epoch: 0, Error: 48179.3
+Layer: 2, Epoch: 1, Error: 38554.3
+Layer: 2, Epoch: 2, Error: 35574.9
+Layer: 2, Epoch: 3, Error: 32975.2
+Layer: 2, Epoch: 4, Error: 30871.6
+Layer: 2, Epoch: 5, Error: 29180.6
+Layer: 2, Epoch: 6, Error: 27469
+Layer: 2, Epoch: 7, Error: 26205.1
+Layer: 2, Epoch: 8, Error: 24821.3
+Layer: 2, Epoch: 9, Error: 23734.2
+Layer: 2, Epoch: 10, Error: 22242.6
+Layer: 2, Epoch: 11, Error: 21140.5
+Layer: 2, Epoch: 12, Error: 20282.1
+Layer: 2, Epoch: 13, Error: 19382.9
+Layer: 2, Epoch: 14, Error: 18738.2
+Layer: 2, Epoch: 15, Error: 17753
+Layer: 2, Epoch: 16, Error: 17089.8
+Layer: 2, Epoch: 17, Error: 16262.7
+Layer: 2, Epoch: 18, Error: 15787
+Layer: 2, Epoch: 19, Error: 15297.8
+Data loaded: size=200, dim=1000
+Layer: 3
+Layer: 3, Epoch: 0, Error: 3244.21
+Layer: 3, Epoch: 1, Error: 1659.33
+Layer: 3, Epoch: 2, Error: 1237.89
+Layer: 3, Epoch: 3, Error: 1090.99
+Layer: 3, Epoch: 4, Error: 1017.39
+Layer: 3, Epoch: 5, Error: 889.798
+Layer: 3, Epoch: 6, Error: 757.834
+Layer: 3, Epoch: 7, Error: 666.041
+Layer: 3, Epoch: 8, Error: 609.413
+Layer: 3, Epoch: 9, Error: 565.449
+Layer: 3, Epoch: 10, Error: 491.782
+Layer: 3, Epoch: 11, Error: 442.283
+Layer: 3, Epoch: 12, Error: 410.81
+Layer: 3, Epoch: 13, Error: 382.398
+Layer: 3, Epoch: 14, Error: 343.663
+Layer: 3, Epoch: 15, Error: 292.529
+Layer: 3, Epoch: 16, Error: 281.481
+Layer: 3, Epoch: 17, Error: 259.861
+Layer: 3, Epoch: 18, Error: 228.956
+Layer: 3, Epoch: 19, Error: 219.551
+Data loaded: size=200, dim=1000
+Layer: logistic layer, Epoch: 0
+Layer: logistic layer, Epoch: 1
+Layer: logistic layer, Epoch: 2
+Layer: logistic layer, Epoch: 3
+Layer: logistic layer, Epoch: 4
+Layer: logistic layer, Epoch: 5
+Layer: logistic layer, Epoch: 6
+Layer: logistic layer, Epoch: 7
+Layer: logistic layer, Epoch: 8
+Layer: logistic layer, Epoch: 9
+Layer: logistic layer, Epoch: 10
+Layer: logistic layer, Epoch: 11
+Layer: logistic layer, Epoch: 12
+Layer: logistic layer, Epoch: 13
+Layer: logistic layer, Epoch: 14
+Layer: logistic layer, Epoch: 15
+Layer: logistic layer, Epoch: 16
+Layer: logistic layer, Epoch: 17
+Layer: logistic layer, Epoch: 18
+Layer: logistic layer, Epoch: 19
+n_layers:3
+Fine-tuning...
+Fine-tuning epoch: 0
+Fine-tuning epoch: 1
+Fine-tuning epoch: 2
+Fine-tuning epoch: 3
+Fine-tuning epoch: 4
+Fine-tuning epoch: 5
+Fine-tuning epoch: 6
+Fine-tuning epoch: 7
+Fine-tuning epoch: 8
+Fine-tuning epoch: 9
+Fine-tuning epoch: 10
+Fine-tuning epoch: 11
+Fine-tuning epoch: 12
+Fine-tuning epoch: 13
+Fine-tuning epoch: 14
+Fine-tuning epoch: 15
+Fine-tuning epoch: 16
+Fine-tuning epoch: 17
+Fine-tuning epoch: 18
+Fine-tuning epoch: 19
+Fine-tuning done.
+Data loaded: size=200, dim=3153
+0: Accuracy=1
+1: Accuracy=1
+2: Accuracy=0.666667
+3: Accuracy=0.5
+4: Accuracy=0.4
+5: Accuracy=0.333333
+6: Accuracy=0.285714
+7: Accuracy=0.25
+8: Accuracy=0.333333
+9: Accuracy=0.4
+10: Accuracy=0.363636
+11: Accuracy=0.416667
+12: Accuracy=0.461538
+13: Accuracy=0.5
+14: Accuracy=0.533333
+15: Accuracy=0.5
+16: Accuracy=0.529412
+17: Accuracy=0.5
+18: Accuracy=0.473684
+19: Accuracy=0.5
+20: Accuracy=0.52381
+21: Accuracy=0.5
+22: Accuracy=0.478261
+23: Accuracy=0.458333
+24: Accuracy=0.44
+25: Accuracy=0.461538
+26: Accuracy=0.481481
+27: Accuracy=0.5
+28: Accuracy=0.482759
+29: Accuracy=0.5
+30: Accuracy=0.483871
+31: Accuracy=0.46875
+32: Accuracy=0.484848
+33: Accuracy=0.5
+34: Accuracy=0.514286
+35: Accuracy=0.5
+36: Accuracy=0.513514
+37: Accuracy=0.526316
+38: Accuracy=0.512821
+39: Accuracy=0.5
+40: Accuracy=0.487805
+41: Accuracy=0.5
+42: Accuracy=0.488372
+43: Accuracy=0.5
+44: Accuracy=0.511111
+45: Accuracy=0.521739
+46: Accuracy=0.510638
+47: Accuracy=0.5
+48: Accuracy=0.489796
+49: Accuracy=0.48
+50: Accuracy=0.490196
+51: Accuracy=0.5
+52: Accuracy=0.490566
+53: Accuracy=0.481481
+54: Accuracy=0.472727
+55: Accuracy=0.464286
+56: Accuracy=0.473684
+57: Accuracy=0.465517
+58: Accuracy=0.457627
+59: Accuracy=0.466667
+60: Accuracy=0.459016
+61: Accuracy=0.451613
+62: Accuracy=0.460317
+63: Accuracy=0.453125
+64: Accuracy=0.446154
+65: Accuracy=0.454545
+66: Accuracy=0.447761
+67: Accuracy=0.455882
+68: Accuracy=0.463768
+69: Accuracy=0.471429
+70: Accuracy=0.478873
+71: Accuracy=0.472222
+72: Accuracy=0.479452
+73: Accuracy=0.486486
+74: Accuracy=0.48
+75: Accuracy=0.486842
+76: Accuracy=0.480519
+77: Accuracy=0.474359
+78: Accuracy=0.481013
+79: Accuracy=0.475
+80: Accuracy=0.469136
+81: Accuracy=0.47561
+82: Accuracy=0.46988
+83: Accuracy=0.464286
+84: Accuracy=0.458824
+85: Accuracy=0.465116
+86: Accuracy=0.471264
+87: Accuracy=0.477273
+88: Accuracy=0.483146
+89: Accuracy=0.488889
+90: Accuracy=0.494505
+91: Accuracy=0.5
+92: Accuracy=0.505376
+93: Accuracy=0.510638
+94: Accuracy=0.515789
+95: Accuracy=0.520833
+96: Accuracy=0.525773
+97: Accuracy=0.530612
+98: Accuracy=0.535354
+99: Accuracy=0.53
+100: Accuracy=0.534653
+101: Accuracy=0.529412
+102: Accuracy=0.533981
+103: Accuracy=0.538462
+104: Accuracy=0.542857
+105: Accuracy=0.54717
+106: Accuracy=0.551402
+107: Accuracy=0.546296
+108: Accuracy=0.550459
+109: Accuracy=0.554545
+110: Accuracy=0.54955
+111: Accuracy=0.544643
+112: Accuracy=0.548673
+113: Accuracy=0.552632
+114: Accuracy=0.556522
+115: Accuracy=0.560345
+116: Accuracy=0.555556
+117: Accuracy=0.550847
+118: Accuracy=0.546218
+119: Accuracy=0.541667
+120: Accuracy=0.545455
+121: Accuracy=0.540984
+122: Accuracy=0.536585
+123: Accuracy=0.540323
+124: Accuracy=0.536
+125: Accuracy=0.539683
+126: Accuracy=0.535433
+127: Accuracy=0.53125
+128: Accuracy=0.534884
+129: Accuracy=0.530769
+130: Accuracy=0.534351
+131: Accuracy=0.537879
+132: Accuracy=0.533835
+133: Accuracy=0.537313
+134: Accuracy=0.540741
+135: Accuracy=0.536765
+136: Accuracy=0.540146
+137: Accuracy=0.543478
+138: Accuracy=0.546763
+139: Accuracy=0.55
+140: Accuracy=0.553191
+141: Accuracy=0.556338
+142: Accuracy=0.559441
+143: Accuracy=0.5625
+144: Accuracy=0.565517
+145: Accuracy=0.561644
+146: Accuracy=0.557823
+147: Accuracy=0.554054
+148: Accuracy=0.550336
+149: Accuracy=0.553333
+150: Accuracy=0.549669
+151: Accuracy=0.546053
+152: Accuracy=0.54902
+153: Accuracy=0.545455
+154: Accuracy=0.541935
+155: Accuracy=0.544872
+156: Accuracy=0.547771
+157: Accuracy=0.550633
+158: Accuracy=0.553459
+159: Accuracy=0.55625
+160: Accuracy=0.552795
+161: Accuracy=0.549383
+162: Accuracy=0.546012
+163: Accuracy=0.54878
+164: Accuracy=0.551515
+165: Accuracy=0.548193
+166: Accuracy=0.550898
+167: Accuracy=0.553571
+168: Accuracy=0.556213
+169: Accuracy=0.558824
+170: Accuracy=0.555556
+171: Accuracy=0.552326
+172: Accuracy=0.554913
+173: Accuracy=0.557471
+174: Accuracy=0.554286
+175: Accuracy=0.551136
+176: Accuracy=0.553672
+177: Accuracy=0.550562
+178: Accuracy=0.547486
+179: Accuracy=0.544444
+180: Accuracy=0.546961
+181: Accuracy=0.543956
+182: Accuracy=0.546448
+183: Accuracy=0.543478
+184: Accuracy=0.540541
+185: Accuracy=0.537634
+186: Accuracy=0.534759
+187: Accuracy=0.537234
+188: Accuracy=0.534392
+189: Accuracy=0.536842
+190: Accuracy=0.539267
+191: Accuracy=0.536458
+192: Accuracy=0.533679
+193: Accuracy=0.530928
+194: Accuracy=0.528205
+195: Accuracy=0.530612
+196: Accuracy=0.532995
+197: Accuracy=0.535354
+198: Accuracy=0.537688
+199: Accuracy=0.54
